@@ -1,0 +1,47 @@
+.bottom-card-container{
+    margin-bottom: 2%;
+    margin-top: -6%;
+}
+
+.bottom-card-wrapper{
+    display: flex;
+}
+
+.bottom-card{
+    margin: 0 2%;
+    display: flex;
+    padding: 10px;
+    color: #000;
+    font-size: 1em;
+    max-width: 320px;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    justify-content: space-between;
+    box-shadow: black 1px 1px 0 0;
+}
+
+.bottom-card:hover{
+    transform: scale(1.05, 1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.bottom-card:hover img{
+    width: 150%;
+    margin-left: -20%;
+}
+
+.bottom-card .card-img{
+    width: 50%;
+}
+
+.bottom-card img{
+    width: 120%;
+}
+
+.bottom-card .card-text{
+    width: 35%;
+    font-size: 20px;
+    line-height: 20px;
+}

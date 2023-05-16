@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: white;
+    background-color: #213b6b;
+    overflow-x: hidden;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header-mainContainer{
+    min-width: 100%;
+    background-color: transparent;
+}
+
+.header-wrapper{
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    min-width: 100vw;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header-mainContainer img{
+    width: 70px;
+    color: white;
+    display: inline;
+}
+
+.header-mainContainer .header-list ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-mainContainer .header-list ul li{
+    padding: 0%;
+    color: White;
+    display: inline;
+    list-style: none;
+    font-size: larger;
+    font-weight: lighter;
+    font-family: 'Jockey One', sans-serif;
+}
+
+.header-mainContainer .header-list ul li:first-child{
+    color: orange;
+}
+
+.header-mainContainer .right-list ul li{
+    display: inline;
+    padding: 0 1%;
+}
+
+.header-mainContainer ul li:hover{
+    cursor: pointer;
+    color: orange;
+}
+
+.header-mainContainer ul li:hover{
+    cursor: pointer;
+}
+
+.background-container{
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: -10% 7%;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.background-container p{
+    color: #1a2f61;
+    letter-spacing: 0.009em;
+    font-size: 26em;
+}
+
+.main-container{
+    margin: 0 2%;
+    padding: 0 2%;
+    font-size: 2em;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    letter-spacing: 2px;
+    font-family: 'Jockey One', sans-serif;
+}
+
+.display-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display-wrapper .left-container{
+    width: 40%;
+    height: 70vh;
+    display: flex;
+    font-size: 2em;
+    text-align: left;
+    padding-left: 2%;
+    line-height: 2em;
+    align-items: start;
+}
+
+.display-wrapper .left-container h1{
+    letter-spacing: 10px;
+}
+
+.display-wrapper .right-container{
+    display: flex;
+    width: 65%;
+    margin: 5% 0;
+}
+
+.display-wrapper .right-container img{
+    width: 90%;
+    cursor: pointer;
+}
+
+.display-wrapper .right-container img:hover{
+    width: 100%;
+    transition: ease-in-out 0.2s;
+}
+
+
+.display-wrapper .right-container .show-details{
+    margin: 30% 0;
+    cursor: pointer;
+    color: orange;
+}
+
+.display-wrapper .right-container .show-details .price{
+    color: white;
+}
