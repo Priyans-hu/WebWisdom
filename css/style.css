@@ -34,6 +34,7 @@ body{
 
 .header-mainContainer .header-list ul{
     display: flex;
+    width: 500px;
     justify-content: space-evenly;
 }
 
